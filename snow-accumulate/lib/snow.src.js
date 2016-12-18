@@ -1297,10 +1297,12 @@ Animation = function () {
 }(), html2canvas([document.body], {
     onrendered: function (e) {
         try {
-            var t = detectEdge(e);
-            t.ch = document.documentElement.scrollHeight;
-            console.log(  t.ch);
-            t.flakeCount = 100, Snowflakes.init(t)
+            window.onload = function(){
+                var t = detectEdge(e);
+                t.ch = document.documentElement.scrollHeight;
+                console.log(  t.ch);
+                t.flakeCount = 20, Snowflakes.init(t)
+            }
         } catch (n) {
         }
     }
