@@ -1,0 +1,214 @@
+html {
+  overflow-y auto
+}
+
+html, body {
+  height 100%
+}
+
+html {
+  display block
+}
+
+body {
+  font-family Arial,"Helvetica Neue",Helvetica,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",sans-serif
+  line-height 1.42857
+  width 100%
+  min-width 1280px
+}
+
+body {
+  font-family: Arial,"Helvetica Neue",Helvetica,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",sans-serif;
+  line-height: 1.42857;
+  width: 100%;
+  min-width: 1200px;
+}
+
+.pro-list {
+  font-family: "Times New Roman",Arial,"Helvetica Neue",Helvetica,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",serif;
+}
+
+.msg, body {
+  font-size: 12px
+}
+
+blockquote, body, button, code, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+  margin: 0;
+  padding: 0;
+}
+
+a, body {
+  color: #333
+}
+
+user agent stylesheetbody {
+  display block
+  margin 8px
+}
+
+a, a:hover {
+  text-decoration none
+}
+
+a {
+  background 0 0
+  -webkit-tap-highlight-color rgba(255, 255, 255, 0)
+  outline 0
+}
+
+a, img {
+  vertical-align top
+}
+
+a, body {
+  color #333
+}
+
+blockquote, body, button, code, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+  margin: 0;
+  padding: 0;
+}
+
+a, img {
+  vertical-align top
+}
+
+fieldset, img {
+  border 0
+}
+
+li, ol, ul {
+  list-style: none
+}
+
+a, a:hover {
+  text-decoration: none
+}
+
+a {
+  background 0 0
+  -webkit-tap-highlight-color rgba(255, 255, 255, 0)
+  outline 0
+}
+
+a, img {
+  vertical-align top
+}
+
+a, body {
+  color #333
+}
+
+/* “清除浮动” 和基于浮动的基本布局 */
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix [class*="col-12-"],
+.clearfix [class*="one-"],
+.clearfix .fl {
+  float: left;
+}
+
+.clearfix .fr {
+  float: right;
+}
+
+.clearfix .col-12-1 {
+  width: 8.33333%;
+}
+
+.clearfix .col-12-2 {
+  width: 16.66667%;
+}
+
+.clearfix .col-12-3 {
+  width: 25%;
+}
+
+.clearfix .col-12-4 {
+  width: 33.33333%;
+}
+
+.clearfix .col-12-5 {
+  width: 41.66667%;
+}
+
+.clearfix .col-12-6 {
+  width: 50%;
+}
+
+.clearfix .col-12-7 {
+  width: 58.33333%;
+}
+
+.clearfix .col-12-8 {
+  width: 66.66667%;
+}
+
+.clearfix .col-12-9 {
+  width: 75%;
+}
+
+.clearfix .col-12-10 {
+  width: 83.33333%;
+}
+
+.clearfix .col-12-11 {
+  width: 91.66667%;
+}
+
+.clearfix .col-12-12 {
+  width: 100%;
+}
+
+.clearfix .one-2 {
+  width: 50%;
+}
+
+.clearfix .one-3 {
+  width: 33.33333%;
+}
+
+.clearfix .one-4 {
+  width: 25%;
+}
+
+.clearfix .one-5 {
+  width: 20%;
+}
+
+.clearfix .one-6 {
+  width: 16.66667%;
+}
+
+.clearfix .one-7 {
+  width: 14.28571%;
+}
+
+.clearfix .one-8 {
+  width: 12.5%;
+}
+
+.clearfix .one-9 {
+  width: 11.11111%;
+}
+
+.clearfix .one-10 {
+  width: 10%;
+}
+
+.clearfix .one-11 {
+  width: 9.09091%;
+}
+
+.clearfix .one-12 {
+  width: 8.33333%;
+}
