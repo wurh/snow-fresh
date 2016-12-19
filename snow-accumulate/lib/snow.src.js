@@ -1151,6 +1151,7 @@
         }
     }
 })(window, document);
+
 var detectEdge = function () {
     function e(e, t, s) {
         var o = n.createImageData(r, i), u = e.width, a = e.height, f = e.data, l = o.data, c = u * 4, h = c + 4, p = a - 1, d = u - 1, v = new Date;
@@ -1301,7 +1302,8 @@ Animation = function () {
                 var t = detectEdge(e);
                 t.ch = document.documentElement.scrollHeight;
                 console.log(  t.ch);
-                t.flakeCount = 20, Snowflakes.init(t)
+                console.log(  t.cw);
+                t.flakeCount = 100, Snowflakes.init(t)
             }
         } catch (n) {
         }

@@ -105,6 +105,6 @@
         }
 
         //animation loop
-        setInterval(draw, 1000);
+        setInterval(draw, 33);
     }
 })()
