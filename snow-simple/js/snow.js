@@ -28,20 +28,6 @@
             ctx.drawImage(beauty, 0, 0);
         }
 
-        function drawImg(){
-            var beauty = new Image();
-            beauty.src = "http://p8.qhimg.com/d/inn/43158a81/Snowflakes.png";
-            if(beauty.complete){
-                drawBeauty(beauty);
-            }else{
-                beauty.onload = function(){
-                    drawBeauty(beauty);
-                };
-                beauty.onerror = function(){
-                    window.alert('美女加载失败，请重试');
-                };
-            };
-        }
 
         //Lets draw the flakes
         function draw()
@@ -119,6 +105,6 @@
         }
 
         //animation loop
-        setInterval(drawImg, 1000);
+        setInterval(draw, 1000);
     }
 })()
